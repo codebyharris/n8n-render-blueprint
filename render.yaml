@@ -31,7 +31,7 @@ services:
       - key: N8N_BASIC_AUTH_PASSWORD
         value: trulyminestocksbot
       - key: N8N_ENCRYPTION_KEY
-        value: somerandomlongstring
+        value: a7F9kPzQ3uR2xYt6Mw1eBv0jHn5gLd8s
   # Optional Telegram setup
       - key: BOT_TOKEN
         value: 8470968554:AAGVXUrqT1QM_PXe8UoaPnTlo45JPRzKz40
