@@ -23,13 +23,13 @@ services:
     # You can define additional environment variables as needed.
     envVars:
       - key: WEBHOOK_URL
-        value: https://n8n.onrender.com/   # replace with your actual Render domain
+        value: https://n8n-render-blueprint.onrender.com/   # replace with your actual Render domain
       - key: N8N_BASIC_AUTH_ACTIVE
         value: "true"
       - key: N8N_BASIC_AUTH_USER
       value: admin
       - key: N8N_BASIC_AUTH_PASSWORD
-        value: yourpassword
+        value: trulyminestocksbot
       - key: N8N_ENCRYPTION_KEY
         value: somerandomlongstring
   # Optional Telegram setup
