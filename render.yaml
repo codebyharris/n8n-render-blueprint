@@ -22,6 +22,22 @@ services:
     #
     # You can define additional environment variables as needed.
     envVars:
+      - key: WEBHOOK_URL
+        value: https://n8n.onrender.com/   # replace with your actual Render domain
+      - key: N8N_BASIC_AUTH_ACTIVE
+        value: "true"
+      - key: N8N_BASIC_AUTH_USER
+      value: admin
+      - key: N8N_BASIC_AUTH_PASSWORD
+        value: yourpassword
+      - key: N8N_ENCRYPTION_KEY
+        value: somerandomlongstring
+  # Optional Telegram setup
+      - key: BOT_TOKEN
+        value: 8470968554:AAGVXUrqT1QM_PXe8UoaPnTlo45JPRzKz40
+      - key: ADMIN_ID
+        value: trulyminestocksbot
+
       # Generates a base64-encoded key for
       # encrypting credentials in n8n
       #
